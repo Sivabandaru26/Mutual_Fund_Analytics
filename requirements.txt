@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 pandas
 numpy
 matplotlib
@@ -6,4 +7,14 @@ plotly
 sqlalchemy
 requests
 scipy
+=======
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+sqlalchemy
+requests
+scipy
+>>>>>>> 5e6528c2a8b061ca81cf7bebe5426257dfbb7c06
 jupyter
