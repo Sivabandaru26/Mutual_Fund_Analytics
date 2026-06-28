@@ -1,16 +1,20 @@
 # Mutual Fund Analytics
 
-Capstone Project for Bluestock Fintech Internship.
+Capstone Project developed as part of the Bluestock Fintech Internship.
 
 ## Project Overview
 
-This project analyzes mutual fund industry data including NAV history, investor transactions, scheme performance, AUM trends, SIP inflows, portfolio holdings, and benchmark indices.
+This project analyzes mutual fund industry data, including NAV history, investor transactions, scheme performance, AUM trends, SIP inflows, portfolio holdings, benchmark indices, and investor behavior.
 
-The objective is to build a clean data pipeline, load datasets into SQLite, perform analytical SQL queries, and generate actionable insights.
+The project builds a complete analytics pipeline covering data ingestion, cleaning, database creation, exploratory data analysis, and mutual fund performance analytics.
 
 ---
 
-## Day 1 Tasks Completed
+# Project Progress
+
+## ✅ Day 1 – Data Ingestion & Validation
+
+### Tasks Completed
 
 * Data Ingestion
 * CSV Validation
@@ -20,71 +24,160 @@ The objective is to build a clean data pipeline, load datasets into SQLite, perf
 
 ---
 
-## Day 2 Tasks Completed
+## ✅ Day 2 – Data Cleaning & Database
 
 ### Data Cleaning
 
-* Cleaned NAV History dataset
-* Cleaned Investor Transactions dataset
-* Cleaned Scheme Performance dataset
-* Cleaned Fund Master dataset
-* Cleaned AUM dataset
-* Cleaned SIP Inflows dataset
-* Cleaned Category Inflows dataset
-* Cleaned Industry Folio dataset
-* Cleaned Portfolio Holdings dataset
-* Cleaned Benchmark Indices dataset
+* Cleaned NAV History
+* Cleaned Investor Transactions
+* Cleaned Scheme Performance
+* Cleaned Fund Master
+* Cleaned AUM
+* Cleaned SIP Inflows
+* Cleaned Category Inflows
+* Cleaned Industry Folio
+* Cleaned Portfolio Holdings
+* Cleaned Benchmark Indices
 
-### Database Development
+### Database
 
-* Created SQLite Database (bluestock_mf.db)
-* Loaded cleaned datasets into SQLite
+* Created SQLite Database (`bluestock_mf.db`)
+* Loaded cleaned datasets
 * Designed database schema
-* Created analytical SQL queries
+* Developed analytical SQL queries
 
 ### Documentation
 
-* Created Data Dictionary
-* Documented schema and queries
+* Data Dictionary
+* SQL Schema
+* SQL Queries
 
 ---
 
-## Deliverables
+## ✅ Day 3 – Exploratory Data Analysis (EDA)
 
-* 10 Cleaned CSV Files
+### Analysis Performed
+
+* NAV Trend Analysis
+* SIP Growth Analysis
+* State-wise Investment Analysis
+* Category Inflow Analysis
+* Investor Demographics
+* Fund House Analysis
+* Portfolio Sector Allocation
+* AUM Distribution
+
+### Visualizations
+
+* Interactive Plotly Charts
+* PNG Reports
+* HTML Reports
+
+---
+
+## ✅ Day 4 – Performance Analytics
+
+### Performance Metrics
+
+* Daily Returns
+* CAGR (Compound Annual Growth Rate)
+* Sharpe Ratio
+* Sortino Ratio
+* Alpha
+* Beta
+* Maximum Drawdown
+
+### Performance Analysis
+
+* Fund Performance Scorecard
+* Benchmark Comparison
+* Top 5 Fund Comparison
+
+### Outputs
+
+* `fund_performance_metrics.csv`
+* `fund_scorecard.csv`
+
+### Reports Generated
+
+* Daily Return Distribution
+* Sharpe Ratio Analysis
+* Sortino Ratio Analysis
+* Maximum Drawdown Analysis
+* Benchmark Comparison
+* Top 5 Funds Comparison
+* Fund Scorecard
+
+---
+
+# Deliverables
+
+* Cleaned CSV Files
 * SQLite Database
 * SQL Schema
 * SQL Queries
 * Data Dictionary
+* EDA Notebook
+* Performance Analytics Notebook
+* Performance Metrics CSV
+* Fund Scorecard CSV
+* Interactive HTML Reports
+* PNG Visualizations
 
 ---
 
-## Technologies Used
+# Technologies Used
 
 * Python
 * Pandas
 * NumPy
+* Plotly
+* Matplotlib
+* SciPy
 * SQLite
 * SQLAlchemy
 * Requests
+* Jupyter Notebook
 * Git & GitHub
 
 ---
 
-## Repository Structure
+# Repository Structure
 
-data/
+```
+Mutual_Fund_Analytics/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── notebooks/
+│   ├── EDA_Analysis.ipynb
+│   └── Performance_Analytics.ipynb
+│
+├── reports/
+│   └── charts/
+│
+├── sql/
+│   ├── schema.sql
+│   └── queries.sql
+│
+├── bluestock_mf.db
+├── data_dictionary.md
+└── README.md
+```
 
-* raw/
-* processed/
+---
 
-sql/
+# Project Status
 
-* schema.sql
-* queries.sql
+**Current Status:** ✅ Completed through Day 4
 
-reports/
+The project now includes:
 
-bluestock_mf.db
-data_dictionary.md
-README.md
+* Data Cleaning
+* Database Development
+* Exploratory Data Analysis
+* Mutual Fund Performance Analytics
+
+Further modules will be added as the internship progresses.
