@@ -1,25 +1,46 @@
 # 📊 Mutual Fund Analytics
 
-A complete end-to-end Mutual Fund Analytics project developed as part of the **Bluestock Fintech Internship Capstone**.
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
+![SQLite](https://img.shields.io/badge/Database-SQLite-green)
+![Status](https://img.shields.io/badge/Project-Completed-success)
 
-The project builds a full data analytics pipeline covering data ingestion, cleaning, database creation, exploratory data analysis, performance analytics, advanced risk analytics, investor behavior analysis, and interactive dashboard visualization.
+A complete **end-to-end Mutual Fund Analytics** project developed as part of the **Bluestock Fintech Internship Capstone**.
+
+This project builds a comprehensive data analytics pipeline covering **ETL, data cleaning, database creation, exploratory data analysis (EDA), mutual fund performance analytics, advanced financial risk analytics, investor behavior analysis, recommendation engine development, and an interactive Power BI dashboard.**
 
 ---
 
-# Project Objectives
+# 📌 Project Objectives
 
 - Build an end-to-end ETL pipeline
 - Clean and validate mutual fund datasets
-- Store cleaned data in SQLite
+- Store processed data in SQLite
 - Perform Exploratory Data Analysis (EDA)
 - Compute mutual fund performance metrics
-- Perform advanced risk analytics
-- Build a mutual fund recommendation engine
+- Perform advanced financial risk analytics
+- Analyze investor behavior
+- Develop a mutual fund recommendation engine
 - Create an interactive Power BI dashboard
 
 ---
 
-# Project Workflow
+# 🚀 Repository Highlights
+
+- ✅ End-to-End Data Analytics Pipeline
+- ✅ SQLite Database Design
+- ✅ Exploratory Data Analysis (EDA)
+- ✅ Mutual Fund Performance Analytics
+- ✅ Advanced Risk Analytics (VaR & CVaR)
+- ✅ Investor Cohort Analysis
+- ✅ At-Risk Investor Identification
+- ✅ Portfolio Diversification Analysis
+- ✅ Mutual Fund Recommendation System
+- ✅ Interactive Power BI Dashboard
+
+---
+
+# 📈 Project Workflow
 
 ```
 Raw CSV Files
@@ -34,7 +55,7 @@ Data Cleaning
 SQLite Database
       │
       ▼
-EDA
+Exploratory Data Analysis
       │
       ▼
 Performance Analytics
@@ -51,46 +72,64 @@ Power BI Dashboard
 
 ---
 
-# Features
+# 🖥 Dashboard Preview
 
-## ETL Pipeline
+> *(Add a screenshot of your Power BI Dashboard here.)*
 
-- Data ingestion
-- Data validation
-- Missing value handling
-- Duplicate removal
-- Data quality checks
-- Clean CSV generation
+```text
+dashboard/dashboard_preview.png
+```
+
+Example:
+
+```markdown
+![Dashboard Preview](dashboard/dashboard_preview.png)
+```
 
 ---
 
-## Database
+# ⚙️ Features
+
+## 🔹 ETL Pipeline
+
+- Data Ingestion
+- Data Validation
+- Missing Value Handling
+- Duplicate Removal
+- Data Quality Checks
+- Clean CSV Generation
+
+---
+
+## 🗄 Database
 
 - SQLite Database
-- Normalized schema
+- Normalized Schema
 - SQL Queries
 - Data Dictionary
 
 ---
 
-## Exploratory Data Analysis
+## 📊 Exploratory Data Analysis (EDA)
+
+Performed comprehensive analysis including:
 
 - NAV Trend Analysis
 - SIP Growth Analysis
 - AUM Analysis
 - Fund House Analysis
-- Category Inflows
-- State-wise Investments
+- Category Inflow Analysis
+- State-wise Investment Analysis
 - Investor Demographics
 - Portfolio Sector Allocation
 
-Interactive charts generated using Plotly and Matplotlib.
+Interactive visualizations were generated using **Plotly** and **Matplotlib**.
 
 ---
 
-## Performance Analytics
+## 📈 Performance Analytics
 
-Calculated important mutual fund performance metrics including:
+Calculated key mutual fund performance metrics including:
 
 - Daily Returns
 - CAGR
@@ -102,107 +141,113 @@ Calculated important mutual fund performance metrics including:
 
 Generated outputs:
 
-- fund_performance_metrics.csv
-- fund_scorecard.csv
+- `fund_performance_metrics.csv`
+- `fund_scorecard.csv`
 
 ---
 
-## Advanced Analytics
-
-Implemented advanced financial analytics including:
+## 📉 Advanced Analytics
 
 ### Risk Analytics
+
+Implemented:
 
 - Historical Value at Risk (VaR)
 - Conditional Value at Risk (CVaR)
 
 Generated:
 
-- var_cvar_report.csv
+- `var_cvar_report.csv`
 
 ---
 
 ### Rolling Sharpe Ratio
 
-Calculated rolling Sharpe Ratio to evaluate changing fund performance over time.
+Calculated rolling Sharpe Ratio to evaluate risk-adjusted performance over time.
 
 Generated:
 
-- rolling_sharpe_chart.png
+- `rolling_sharpe_chart.png`
 
 ---
 
-### Cohort Analysis
+### Investor Cohort Analysis
 
-Analyzed investor retention using cohort-based analysis.
-
----
-
-### Investor Risk Segmentation
-
-Identified At-Risk Investors based on inactivity period.
+Grouped investors based on their first investment month to analyze acquisition trends and investor behavior.
 
 ---
 
-### Portfolio Diversification
+### At-Risk Investor Identification
 
-Calculated Sector Concentration using Herfindahl-Hirschman Index (HHI).
+Detected inactive investors using transaction gap analysis.
+
+---
+
+### Portfolio Diversification Analysis
+
+Calculated sector concentration using the **Herfindahl-Hirschman Index (HHI)**.
 
 Generated:
 
-- sector_hhi_report.csv
+- `sector_hhi_report.csv`
 
 ---
 
-## Mutual Fund Recommendation System
+## 🤖 Mutual Fund Recommendation System
 
-Developed a recommendation engine based on:
+Developed a rule-based recommendation engine considering:
 
 - Risk Appetite
 - Sharpe Ratio
 - Annual Return
-- Volatility
+- Annual Volatility
 
-Risk Categories:
+Supported Risk Categories:
 
 - Low Risk
 - Moderate Risk
 - High Risk
 
-Returns Top Recommended Mutual Funds for investors.
+Returns the **Top Recommended Mutual Funds** for investors.
 
 ---
 
-## Power BI Dashboard
+## 📊 Power BI Dashboard
 
-Interactive dashboard with multiple report pages including:
+Developed an interactive Power BI dashboard containing:
 
 - Executive Summary
-- Fund Performance
+- Fund Performance Analysis
 - Investor Insights
 - Risk Analytics
 
-Features:
+Dashboard Features:
 
-- Interactive slicers
-- KPI cards
-- Trend charts
-- Drill-down analysis
+- Interactive Slicers
+- KPI Cards
+- Trend Analysis
+- Drill-down Reports
+- Dynamic Filtering
 
 ---
 
-# Folder Structure
+# 📂 Repository Structure
 
 ```
 Mutual_Fund_Analytics/
 │
 ├── dashboard/
+│   ├── Mutual_Fund_Analytics.pbix
+│   └── dashboard_preview.png
 │
 ├── data/
 │   ├── raw/
 │   └── processed/
 │
 ├── docs/
+│   ├── BLUESTOCK_FINTECH_Final_Report.pdf
+│   ├── Mutual_Fund_Analytics_Presentation.pptx
+│   └── ER_Diagram.png
 │
 ├── notebooks/
 │   ├── EDA_Analysis.ipynb
@@ -213,6 +258,11 @@ Mutual_Fund_Analytics/
 │   └── charts/
 │
 ├── scripts/
+│   ├── data_ingestion.py
+│   ├── create_database.py
+│   ├── live_nav_fetch.py
+│   ├── recommender.py
+│   └── ...
 │
 ├── sql/
 │   ├── schema.sql
@@ -225,7 +275,7 @@ Mutual_Fund_Analytics/
 
 ---
 
-# Technologies Used
+# 🛠 Technologies Used
 
 - Python
 - Pandas
@@ -242,11 +292,35 @@ Mutual_Fund_Analytics/
 
 ---
 
-# Project Deliverables
+# ▶️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Sivabandaru26/Mutual_Fund_Analytics.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd Mutual_Fund_Analytics
+```
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the notebooks or Python scripts to reproduce the analysis.
+
+---
+
+# 📦 Project Deliverables
 
 - ETL Pipeline
 - Cleaned CSV Files
-- SQLite Schema
+- SQLite Database Schema
 - SQL Queries
 - Data Dictionary
 - EDA Notebook
@@ -255,37 +329,43 @@ Mutual_Fund_Analytics/
 - Recommendation Engine
 - Power BI Dashboard
 - Technical Documentation
-- Charts and Reports
+- Final Presentation
+- Charts & Reports
 
 ---
 
-# Outputs
+# 📄 Generated Outputs
 
-Generated reports include:
-
+- Fund Performance Metrics
 - Fund Scorecard
-- Performance Metrics
 - Value at Risk (VaR)
 - Conditional Value at Risk (CVaR)
+- Rolling Sharpe Ratio
 - Sector HHI Report
-- Rolling Sharpe Ratio Chart
-- EDA Charts
-- Performance Charts
+- Investor Cohort Analysis
+- EDA Visualizations
+- Performance Reports
 
 ---
 
-# Future Enhancements
+# 🔮 Future Enhancements
 
-- Streamlit Dashboard
-- Live NAV API Integration
-- Portfolio Optimizer
+- Streamlit Web Application
+- Live NAV API Automation
+- Portfolio Optimization
 - Monte Carlo Simulation
-- Automated Email Reporting
+- Automated Weekly Email Reports
 
 ---
 
-# Author
+# 👨‍💻 Author
 
 **Ratna Siva Kumar Bandaru**
 
-Bluestock Fintech Internship Capstone Project
+**Bluestock Fintech Internship Capstone Project**
+
+---
+
+# 📜 License
+
+This project was developed as part of the **Bluestock Fintech Internship Capstone** for educational and learning purposes.
