@@ -4,7 +4,7 @@ from pathlib import Path
 # -----------------------------
 # Load scorecard data
 # -----------------------------
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 scorecard = pd.read_csv(
     BASE_DIR / "data" / "processed" / "fund_scorecard.csv"
