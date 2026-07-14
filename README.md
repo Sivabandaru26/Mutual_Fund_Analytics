@@ -74,19 +74,7 @@ Power BI Dashboard
 
 # 🖥 Dashboard Preview
 
-> *(Add a screenshot of your Power BI Dashboard here.)*
-
-```text
-dashboard/dashboard_preview.png
-```
-
-Example:
-
-```markdown
 ![Dashboard Preview](dashboard/dashboard_preview.png)
-```
-
----
 
 # ⚙️ Features
 
